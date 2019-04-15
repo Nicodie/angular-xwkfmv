@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './pokemon.component.html',//associated html file
   styleUrls: ['./pokemon.component.css']//associated css file
 })
-export class PokemonComponent {
+export class PokemonComponent implements OnInit {
   constructor() { }
   ngOnInit() {}
 }
